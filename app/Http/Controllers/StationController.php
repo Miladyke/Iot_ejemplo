@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\station;
+use App\Models\Station;
 use Illuminate\Http\Request;
 
 class StationController extends Controller
@@ -34,7 +34,7 @@ class StationController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(station $station)
+    public function show(Station $station)
     {
         //
     }
@@ -42,7 +42,7 @@ class StationController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(station $station)
+    public function edit(Station $station)
     {
         //
     }
@@ -50,7 +50,7 @@ class StationController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, station $station)
+    public function update(Request $request, Station $station)
     {
         //
     }
@@ -58,7 +58,7 @@ class StationController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(station $station)
+    public function destroy(Station $station)
     {
         //
     }
